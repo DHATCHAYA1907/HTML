@@ -1,0 +1,130 @@
+PERFUMFY PAGE USING HTML AND CSS:
+HTML :
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <h1>Perfumfy</h1>
+            <ul>
+                <li>Home|</li>
+                <li>Product|</li>
+                <li>Contact|</li>
+                <li>About us|</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="searchbar">
+      <input type="text" placeholder="search">
+    </div>
+    
+    <div class="product">
+        <div class="box">
+            <img src="https://www.bing.com/th?id=OPAC.o0ZdXptv3ZqZ1w474C474&o=5&pid=21.1&w=124&h=146&rs=1&qlt=100&dpr=1.2&bw=6&bc=FFFFFF">
+            <p>One of the main benefits of wearing perfume is enhancing the mood. </p>
+        </div>
+        <div class="box">
+            <img src="https://www.bing.com/th?id=OPAC.xE9RCoH2bXuJ1w474C474&o=5&pid=21.1&w=124&h=146&rs=1&qlt=100&dpr=1.2&bw=6&bc=FFFFFF">
+            <p>One of the main benefits of wearing perfume is enhancing the mood. </p>
+        </div> <div class="box">
+            <img src="https://www.bing.com/th?id=OPAC.0e%2ba0c2yrt8p5Q474C474&o=5&pid=21.1&w=136&h=158&rs=1&qlt=100&dpr=1.2&pcl=f5f5f5">
+            <p>One of the main benefits of wearing perfume is enhancing the mood. </p>
+        </div>
+
+
+
+    </div>
+    <div class="About">
+        <h1>About us</h1>
+<p>
+    The sense of smell is one of the most important of the five senses. Sometimes, you can simply get attracted to someone because of how they smell. Some perfumes contain pheromones to make you smell attractive.
+</p>
+    </div>
+    <div class="header">
+        <h5>Contact</h5>
+        <h5>+91 5783900260</h5>
+        <h5>perfymy@gmail.com</h5>
+        <p style="margin-top: 20px; font-size: 10px;">Wear warm and invigorating scents such as patchouli, rose, vanilla, cedarwood, bergamot, or sandalwood, as these tend to smell soft and primal, making you irresistibly attractive when you are going for that vibe.There is no scientific evidence to ascertain the efficacy of perfume’s health-boosting properties. However, perfume helps enhance the mood, which can keep stress and other anxiety-related issues at bay. You can use your favorite fragrance to beat your anxiety blues and lift your spirits.</p>
+    </div>
+    
+</body>
+</html>
+
+
+CSS:
+*{
+    margin:0;
+    padding: 0;
+}
+nav
+{
+    background-color: black;
+    color:white;
+    padding:20px;
+
+}
+li,h1,ul{
+    display:inline;
+}
+ul{
+    margin-left: 60%;
+}
+li{
+    color: gray;
+    cursor:pointer;
+}
+li:hover{
+    color:beige;
+}
+
+input{
+    width:60%;
+    padding:15px;
+    
+    
+}
+.searchbar{
+    text-align: center;
+    padding: 50px;
+
+}
+   .box{
+    border-color: black;
+    border-width: 2px;
+    border-style:solid;
+    display:inline-block;
+    width:220px; 
+   
+   }
+   .box :hover
+   {
+    background-color: black;
+    color: white;
+   }
+   .product{
+    
+    text-align: center;
+   
+
+}
+.About
+{
+text-align: center ;
+margin:20px;
+}
+.header
+{
+    background-color: black;
+    color: white;
+    text-align:center;
+    padding: 40px;
+}
+
+
+
